@@ -19,22 +19,22 @@ helm version
 ### Add Repository
 
 ```bash
-helm repo add todie https://todie.github.io/helm-charts
+helm repo add m1tttt4 https://m1tttt4.github.io/helm-charts
 helm repo update
 ```
 
 ### List Charts
 
 ```bash
-helm repo search -l todie
+helm repo search -l m1tttt4
 ```
 
 ## Install Charts
 
 ```bash
-helm install <my-release> todie/<chart-name>
+helm install <my-release> m1tttt4/<chart-name>
 ```
 
 ## Available Charts
 
-- [1Password SCIM Bridge](https://github.com/todie/helm-charts/tree/main/charts/op-scim-bridge)
+- [1Password SCIM Bridge](https://github.com/m1tttt4/helm-charts/tree/main/charts/op-scim-bridge)
